@@ -1,0 +1,42 @@
+form{
+    padding: 10px;
+    background-color: rgb(164, 142, 115);
+    text-align: left;
+}
+.form-control{
+    margin-bottom: 8px;
+}
+label,input,textarea{
+    display: block;
+    width: 100%;
+
+}
+label{
+    color: rgb(80,57,7);
+    margin-bottom: 8px;
+}
+input,textarea{
+    font: inherit;
+    padding: 7.5px;
+    border-radius: 4px;
+    border-color: rgb(252,248,239);
+    border: 1px solid rgb(121,85,7);
+    color: rgb(121,85,7);
+    box-sizing: border-box;
+}
+input:focus,textarea:focus{
+    background-color:  rgb(252,248,239);
+}
+
+button{
+    cursor: pointer;
+    padding: 5px 15px;
+    background-color: rgb(202,158,42);
+    border: 1px  rgb(202,158,62);
+    color: white;
+    border-radius: 4px;
+}
+
+button :hover{
+    background-color:  rgb(133, 81, 14);
+}

@@ -1,0 +1,52 @@
+main{
+    text-align: center;
+}
+
+
+#restaurents-list{
+    list-style: none;
+    width: 500px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.restaurent-item{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgb(250,244,194);
+    text-align: left;
+    color: rgb(110,78,7);
+}
+
+.restaurent-item h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: 8px 0;
+}
+
+.restaurent-data p{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.restaurent-data {
+    margin-bottom: 10px;
+}
+
+.restaurent-data{
+    color: rgb(212, 116, 5);
+}
+
+#visit{
+    padding: 6px 15px;
+    background-color: rgb(110,78,7);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#visitwrab{
+    text-align: right;
+}
+

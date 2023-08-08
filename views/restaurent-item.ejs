@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eatwell- make the world a tastier place</title>
+    <link rel="stylesheet" href="../styles/shared.css"/>
+    <link rel="stylesheet" href="../styles/recommend.css"/> 
+</head>
+<body>
+    <header id="main-header">
+        <div id="logo"><a href="/">Eatwell</a></div>
+        <nav>
+            <ul>
+                <li><a href="/restaurent">browse resturent</a></li>
+                <li><a href="/recommend">share a resturent</a></li>
+                <li><a href="about">about Eatwell</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2><%= restaurent.name %></h2> 
+        <div class="restaurent-data">
+        <p><%= restaurent.cuision %></p>
+        <p><%= restaurent.address %></p>
+        </div>
+        <p><%= restaurent.discription %></p>
+        <div>
+        <a href="<%= restaurent.website %>">view website</a>
+        </div>
+    </main>
+</body>
+</html>

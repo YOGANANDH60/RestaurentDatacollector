@@ -1,0 +1,40 @@
+main{
+    width: 95%;
+    margin: 30px auto;
+    text-align: center;
+}
+main h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(225, 137, 29);
+}
+main ul{
+    list-style: none;
+    margin: auto;
+    width: 1000;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+   
+}
+main li{
+    border-radius: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color:  rgb(48,42,31);
+   
+    padding: 30px;
+}
+main li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(180, 148, 95);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+main li:hover{
+    background-color: rgb(137, 108, 51);
+
+}
+

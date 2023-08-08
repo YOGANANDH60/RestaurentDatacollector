@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eatwell- make the world a tastier place</title>
+    <link rel="stylesheet" href="styles/shared.css"/>
+    <link rel="stylesheet" href="styles/recommend.css"/>
+</head>
+<body>
+    <header id="main-header">
+        <div id="logo"><a href="/">Eatwell</a></div>
+        <nav>
+            <ul>
+                <li><a href="/restaurent">browse resturent</a></li>
+                <li><a href="/recommend">share a resturent</a></li>
+                <li><a href="about">about Eatwell</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>share your fav restaurent</h1>
+        <form action="/recommend" method="post">
+            <div class="form-control">
+                <label for="name">Restaurent name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-control">
+                <label for="address">Restaurent address</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-control">
+                <label for="cuision">type of cuision</label>
+                <input type="text" id="cuision" name="cuision" placeholder="e.g:india" required>
+            </div>
+            <div class="form-control">
+                <label for="website">Restaurent website</label>
+                <input type="url" id="website" name="website" required>
+            </div>
+            <div class="form-control">
+                <label for="discription">Restaurent discription</label>
+                <textarea name="discription" id="discription" required></textarea>
+            </div>
+            <button type="submit">submit</button>
+        </form>
+     </main>
+</body>
+</html>
